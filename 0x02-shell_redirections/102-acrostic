@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta >> iacta
+cut -c 1 | paste -s -d ''
